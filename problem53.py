@@ -12,7 +12,7 @@ def matrisciz(matrix):
         print()
 
 
-boyut = 3 # int(input("Boyut giriniz: \n>>> "))
+boyut = int(input("Boyut giriniz: \n>>> "))
 
 matris = [[int(random.randint(-9, 9)) for _ in range(boyut)] for _ in range(boyut)]
 matrisciz(matris)
