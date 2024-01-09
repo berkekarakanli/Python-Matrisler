@@ -13,15 +13,15 @@ def matrisciz(matrix):
 
 def listemaxmin(liste):
 
-    mak = liste[0]
-    min = liste[0]
+    maksimum = liste[0]
+    minumum = liste[0]
 
     for i in liste:
-        if mak < i:
-            mak = i
-        if min > i:
-            min = i
-    return [min, mak]
+        if maksimum < i:
+            maksimum = i
+        if minumum > i:
+            minumum = i
+    return [minumum, maksimum]
 
 
 boyut = int(input("Boyut giriniz: \n>>> "))
