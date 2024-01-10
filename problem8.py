@@ -12,7 +12,7 @@ def matrisciz(matrix):
 boyut = int(input("Boyut gir: \n>>> "))
 print("Matris")
 matris = [[int(10*random.random()) for i in range(boyut)] for j in range(boyut)]
-matrixciz(matris)
+matrisciz(matris)
 
 print("Yeni Matris")
 for i in range(len(matris[0])):
@@ -20,5 +20,3 @@ for i in range(len(matris[0])):
     for j in range(len(matris)):
         toplam += matris[j][i]
     print(f"{i + 1}. sutundaki değerlerin tolamı= {toplam}")
-
-
